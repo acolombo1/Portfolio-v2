@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Aldo Colombo</title>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div>Aldo Colombo - Portfolio</div>
+      <ul class="rightmenu">
+        <li id="portfolio" class="rightmenuSelected">Portfolio</li>
+        <li id="about">About</li>
+        <li id="contact">Contact</li>
+        <li id="resume">Resume</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="portfoliosection">
+    <h1>My Recent works</h1>
+    <div id="bookshelf" class="bookshelf"></div>
+  </section>
+
+  <section class="hidden" id="aboutsection">
+    <h2>About me</h2>
+    <form id="mybookshelf">
+      <input type="text" placeholder="Title" id="newName">
+      <input type="text" placeholder="Author" id="newAuthor">
+      <button type="button" id="add">Add</button>
+    </form>
+    <small class="hideslowly">The form has been correctly submitted. Navigate on!</small>
+  </section>
+
+  <section class="hidden" id="contactsection">
+    <h2>Contact information</h2>
+    <div class="contacttext">
+      <p>Do have any questions or you just want to say 'Hello'?</p>
+      <p>&nbsp;</p>
+      <p>You can reach out to me!</p>
+      <br>
+      <ul>
+        <li>E-mail: <a href="mailto:acolombo1@yahoo.com?subject=Portfolio">acolombo1@yahoo.com</a></li>
+        <li>Phone/ Whatsapp: +54 911 6260 2503</li>
+        <li>Address: Santos Dumont 2719, C1426 CABA, Argentina</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="hidden" id="resumesection">
+    <h2 class="hidden">Resume</h2>
+    <div class="resumetext">
+      <embed src="./assets/Aldo_Colombo_1.pdf" width="850px" height="800px" />
+    </div>
+  </section>
+
+  <footer>
+    <div class="footersquare">
+      Copyright &copy; 2022 | "Portfolio" - Version 2.0
+    </div>
+  </footer>
+
+
+  <script src="./index.js" type="module"></script>
+</body>
+</html>
