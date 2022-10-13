@@ -22,16 +22,28 @@
 
   <section id="portfoliosection">
     <h1>My Recent works</h1>
-    <div id="bookshelf" class="bookshelf"></div>
+    <div id="myprojects" class="myprojects"></div>
   </section>
 
   <section class="hidden" id="aboutsection">
     <h2>About me</h2>
-    <form id="mybookshelf">
-      <input type="text" placeholder="Title" id="newName">
-      <input type="text" placeholder="Author" id="newAuthor">
-      <button type="button" id="add">Add</button>
-    </form>
+    <div class="abouttext">
+    </div>
+    <div id="formproper">
+      <form id="myform" action="https://formspree.io/f/mknyzadl" method="POST" novalidate>
+        <input class="formitem" type="text" id="fullname" name="fullname" placeholder="Full Name" required
+        minlength=2 maxlength=30>
+
+        <input class="formitem" type="email" id="email" name="email" placeholder="Email Address" required>
+
+        <textarea class="formitem" id="message" name="message" required placeholder="Enter text here"
+          minlength=10 maxlength=500></textarea>
+        <div id="buttonwrapper">
+          <div><button class="button" type="submit">Get in Touch</button>&nbsp;</div>
+          <div><span aria-live="polite" id="formvalidmsg"></span></div>
+        </div>
+      </form>
+    </div>
     <small class="hideslowly">The form has been correctly submitted. Navigate on!</small>
   </section>
 
@@ -53,7 +65,7 @@
   <section class="hidden" id="resumesection">
     <h2 class="hidden">Resume</h2>
     <div class="resumetext">
-      <embed src="./assets/Aldo_Colombo_1.pdf" width="850px" height="800px" />
+      <embed src="./assets/Aldo_Colombo_2.pdf" width="850px" height="1000px" />
     </div>
   </section>
 

@@ -104,55 +104,70 @@ section {
   width: 100%;
 }
 
+.contacttext {
+  margin-top: 20px;
+}
+
 .contacttext ul {
   margin-left: 10px;
 }
 
+.contacttext li {
+  margin-top: 10px;
+}
+
 h1,
 h2 {
-  margin: 150px 10px 50px 10px;
+  margin: 120px 10px 20px 10px;
+}
+
+#formproper {
+  width: 70vw;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  width: 90%;
 }
 
 button {
-  padding: 5px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 18px;
   margin: 8px 10px;
-}
-
-form button {
-  margin: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: green 2px 2px 5px;
+  cursor: pointer;
 }
 
 input {
-  margin: 5px 0;
-}
-
-.bookshelf {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-  padding: 5px;
+  margin: 10px 0;
   border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 18px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: green 2px 2px 5px;
 }
 
-.class0,
-.class1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding-left: 5px;
+textarea {
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 18px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: green 2px 2px 5px;
 }
 
-.class0 {
-  background-color: rgb(88, 96, 112);
-  color: white;
+textarea:focus, input:focus{
+  outline: none;
+}
+
+#formvalidmsg {
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 4px 9px;
+  font-size: 0.8rem;
 }
 
 small {
