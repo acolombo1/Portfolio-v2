@@ -59,6 +59,27 @@ footer {
   margin-bottom: 70px;
 }
 
+.abouttext {
+  margin: 10px 40px 20px 40px;
+  line-height: 2rem;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.contacttext {
+  margin-top: 20px;
+}
+
+.contacttext ul {
+  margin-left: 10px;
+}
+
+.contacttext li {
+  margin-top: 10px;
+}
+
 .rightmenu {
   display: flex;
   padding: 0;
@@ -112,27 +133,6 @@ section {
   justify-content: center;
   align-items: center;
   width: 100%;
-}
-
-.abouttext {
-  margin: 10px 40px 20px 40px;
-  line-height: 2rem;
-}
-
-p {
-  margin-top: 20px;
-}
-
-.contacttext {
-  margin-top: 20px;
-}
-
-.contacttext ul {
-  margin-left: 10px;
-}
-
-.contacttext li {
-  margin-top: 10px;
 }
 
 h1,
@@ -192,7 +192,8 @@ textarea {
   box-shadow: green 2px 2px 5px;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
   outline: none;
 }
 
