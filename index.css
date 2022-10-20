@@ -19,6 +19,16 @@ header {
   background-color: white;
 }
 
+.headerhover {
+  top: 0;
+  transition: 0.3s ease-in;
+}
+
+.headerhidden {
+  top: -50px;
+  transition: 1s ease-in;
+}
+
 footer {
   width: 100%;
   margin-top: 40px;
@@ -104,6 +114,15 @@ section {
   width: 100%;
 }
 
+.abouttext {
+  margin: 10px 40px 20px 40px;
+  line-height: 2rem;
+}
+
+p {
+  margin-top: 20px;
+}
+
 .contacttext {
   margin-top: 20px;
 }
@@ -118,10 +137,21 @@ section {
 
 h1,
 h2 {
-  margin: 120px 10px 20px 10px;
+  margin: 10px 20px 10px;
+}
+
+.hlow {
+  margin-top: 120px;
+  transition: 0.3s ease-in;
+}
+
+.hhigh {
+  margin-top: 40px;
+  transition: 1s ease-in;
 }
 
 #formproper {
+  margin-top: 40px;
   width: 70vw;
 }
 
@@ -132,17 +162,19 @@ form {
 }
 
 button {
+  font-size: 1rem;
   border: 1px solid black;
   border-radius: 20px;
   padding: 8px 18px;
-  margin: 8px 10px;
+  margin: 15px 10px;
   background-color: rgb(255, 255, 255);
   box-shadow: green 2px 2px 5px;
   cursor: pointer;
 }
 
 input {
-  margin: 10px 0;
+  font-size: 1rem;
+  margin: 15px 0;
   border: 1px solid black;
   border-radius: 20px;
   padding: 8px 18px;
@@ -151,7 +183,8 @@ input {
 }
 
 textarea {
-  margin: 10px 0;
+  font-size: 1rem;
+  margin: 15px 0;
   border: 1px solid black;
   border-radius: 20px;
   padding: 8px 18px;
@@ -180,9 +213,16 @@ small {
   transition: all 3s ease-out;
 }
 
-.resumetext {
+.rtlow {
   margin-top: 90px;
+  transition: 0.3s ease-in;
 }
+
+.rthigh {
+  margin-top: 20px;
+  transition: 1s ease-in;
+}
+
 
 .remove {
   cursor: pointer;
