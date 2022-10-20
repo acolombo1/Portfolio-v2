@@ -222,8 +222,3 @@ small {
   margin-top: 20px;
   transition: 1s ease-in;
 }
-
-
-.remove {
-  cursor: pointer;
-}
