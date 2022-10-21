@@ -318,6 +318,17 @@ h3 {
   height: auto;
 }
 
+.size2 {
+  max-width: 30vw;
+  height: auto;
+  border: 1px solid black;
+}
+
+.size3 {
+  max-width: 216px;
+  height: auto;
+}
+
 .bottomgreyicons {
   margin-top: 60px;
   margin-left: 0 !important;
@@ -338,4 +349,23 @@ h3 {
 
 .bottomgreyicons li img:hover {
   transform: scale(1.5);
+}
+
+@media screen and (max-width: 640px) {
+  .mobilehide {
+    display: none;
+  }
+
+  .headerhidden {
+    top: 0;
+  }
+
+  .hhigh {
+    margin-top: 80px;
+    transition: 1s ease-in;
+  }
+
+  .rthigh {
+    margin-top: 90px;
+  }
 }
