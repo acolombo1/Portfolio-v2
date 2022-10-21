@@ -8,6 +8,7 @@ const contactBtn = document.getElementById('contact');
 const resumeBtn = document.getElementById('resume');
 
 export default (event) => {
+  window.scrollTo(0, 0);
   switch (event.target.id) {
     case 'portfolio':
       if (!aboutDisplay.classList.contains('hidden')) aboutDisplay.classList.add('hidden');

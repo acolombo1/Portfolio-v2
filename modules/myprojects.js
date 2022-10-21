@@ -64,7 +64,7 @@ const projects = {
     linkSource: 'https://github.com/acolombo1/Metrics',
   },
 };
-
+/*
 function addnode(projectname, node) {
   const project = projects[projectname];
   const newnode = document.createElement('div');
@@ -78,3 +78,4 @@ function retrievedata() {
 }
 
 export default retrievedata;
+*/

@@ -25,7 +25,7 @@ header {
 }
 
 .headerhidden {
-  top: -50px;
+  top: -55px;
   transition: 1s ease-in;
 }
 
@@ -172,6 +172,21 @@ button {
   cursor: pointer;
 }
 
+button:active {
+  background-color: green;
+  color: white;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+button:focus {
+  background-color: green;
+  color: white;
+}
+
 input {
   font-size: 1rem;
   margin: 15px 0;
@@ -223,3 +238,97 @@ small {
   margin-top: 20px;
   transition: 1s ease-in;
 }
+
+.project {
+  display: flex;
+}
+
+h3 {
+  align-items: center;
+  padding: 10px;
+}
+
+.leftcolumn {
+  margin: 20px;
+  margin-left: 80px;
+}
+
+.lci {
+  margin: 20px;
+  text-align: center;
+  text-shadow: 1px 1px rgb(111, 255, 111);
+}
+
+.rightcolumn {
+  margin: 80px 40px 20px 20px;
+}
+
+.rtt {
+  line-height: 2rem;
+}
+
+.techstack {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tsi {
+  margin: 5px;
+}
+
+.buttons {
+  margin-top: 40px;
+  display: flex;
+}
+
+.live-btn {
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 18px;
+  margin: 15px 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: green 2px 2px 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.live-btn:active {
+  background-color: green;
+  color: white;
+}
+
+.live-btn:hover {
+  background-color: green;
+  color: white;
+}
+
+.live-btn:focus {
+  background-color: green;
+  color: white;
+}
+
+.size1 {
+  max-width: 40vw;
+  height: auto;
+}
+
+.bottomgreyicons {
+  margin-top: 60px;
+  margin-left: 0 !important;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.icon {
+  line-height: 1.5rem;
+  margin: 15px;
+}
+
