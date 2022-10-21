@@ -332,3 +332,10 @@ h3 {
   margin: 15px;
 }
 
+.bottomgreyicons li img {
+  transition: transform 0.3s;
+}
+
+.bottomgreyicons li img:hover {
+  transform: scale(1.5);
+}

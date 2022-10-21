@@ -1,6 +1,5 @@
 import loaddata from './modules/formvalidation.js';
 import hidepages from './modules/hidepages.js';
-// import retrievedata from './modules/myprojects.js';
 import { hidemenu, showmenu } from './modules/hidemenu.js';
 
 const portfolioBtn = document.getElementById('portfolio');
@@ -17,6 +16,5 @@ window.addEventListener('load', () => {
   myheader.addEventListener('mouseover', showmenu);
   document.addEventListener('click', hidemenu);
 
-  // retrievedata();
   loaddata();
 });
