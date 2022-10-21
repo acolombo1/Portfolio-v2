@@ -32,7 +32,7 @@ Open index.html file with your browser of choice.
 
 ### Deployment
 
-Copy index.html, index.css and index.js to the http server.
+Copy index.html, index.css and index.js to the http server. The folders 'assets' and 'modules' and their contents have to be uploaded as well.
 
 ## Authors
 
