@@ -10,13 +10,17 @@ body {
   align-items: center;
   width: 100%;
   overflow-y: scroll;
+  background-color: white;
+  background-image: url('./assets/bg2c.jpg');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
 }
 
 header {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: white;
 }
 
 .headerhover {
@@ -32,7 +36,6 @@ header {
 footer {
   width: 100%;
   margin-top: 40px;
-  background-color: white;
 }
 
 .nav {
@@ -44,6 +47,7 @@ footer {
   padding: 8px 28px 8px 28px;
   margin: 8px;
   box-shadow: green 2px 2px 5px;
+  background-color: white;
 }
 
 .footersquare {
@@ -367,5 +371,38 @@ h3 {
 
   .rthigh {
     margin-top: 90px;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  .size1 {
+    max-width: 80vw;
+  }
+
+  .size2 {
+    max-width: 80vw;
+  }
+
+  .size3 {
+    max-width: 80vw;
+  }
+
+  .leftcolumn {
+    margin: 10px;
+  }
+
+  .rightcolumn {
+    margin-top: 20px;
+  }
+
+  .bottomgreyicons {
+    margin-top: 20px;
+    margin-left: 0 !important;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0;
   }
 }
