@@ -1,0 +1,12 @@
+About me
+    Hello, I’m Aldo, full-stack developer with a solid background in electronics engineering, computer science teaching, math teaching, and cryptocurrency trading.
+
+    I studied to broaden my software developer aptitudes at a fantastic school called Microverse, where I pair-programmed with partners from all over the world. I’m a teamwork fan! I love coding, that's why I’m very proud of my career at Microverse, where I’m best at coding challenges, and I’m behind every detail of a coding project. Apart from HTML5, CSS3 and JavaScript, I master React/Redux, Ruby, Rails, Devise gem, Rspec, Jest, Git, Github, Postgres SQL, and always learning.
+
+    I've been working with disabled people, teaching them computer science, and making computer adaptations (hardware and software), in particular speech recognition. This project stemmed from the final project, as I graduated from the best Engineering University in Argentina. These experiences make me a specialist in UX, UI, and accessibility.
+
+    I've been also supervising a line where we build medical equipment such as incubators. I also worked at a company that did CCTV and I was in charge of the computers that centralized the recordings, and programmed applications in VB.net and JavaScript ES6. I also have knowledge of C#, and C++.
+
+    I'm now in the cryptocurrency market, where I see strong opportunities for development.
+
+    So, could we talk about the perspectives of joining your project? If so, you can contact me using the form below.

@@ -23,16 +23,6 @@ header {
   top: 0;
 }
 
-.headerhover {
-  top: 0;
-  transition: 0.3s ease-in;
-}
-
-.headerhidden {
-  top: -55px;
-  transition: 1s ease-in;
-}
-
 footer {
   width: 100%;
   margin-top: 40px;
@@ -66,10 +56,34 @@ footer {
 .abouttext {
   margin: 10px 40px 20px 40px;
   line-height: 2rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.abtextdiv {
+  margin: 10px;
+}
+
+.myphotodiv {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid green;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px green;
+}
+
+.myphoto {
+  width: 40vw;
+  height: auto;
 }
 
 p {
   margin-top: 20px;
+}
+
+.bigfont {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .contacttext {
@@ -112,18 +126,14 @@ p {
 }
 
 .rightmenu li:nth-child(1) {
-  width: 4.4em;
-}
-
-.rightmenu li:nth-child(2) {
   width: 3em;
 }
 
-.rightmenu li:nth-child(3) {
+.rightmenu li:nth-child(2) {
   width: 4em;
 }
 
-.rightmenu li:nth-child(4) {
+.rightmenu li:nth-child(3) {
   width: 3em;
 }
 
@@ -146,12 +156,10 @@ h2 {
 
 .hlow {
   margin-top: 120px;
-  transition: 0.3s ease-in;
 }
 
-.hhigh {
-  margin-top: 40px;
-  transition: 1s ease-in;
+.abtextbelow {
+  display: none;
 }
 
 #formproper {
@@ -223,7 +231,7 @@ input:focus {
   font-size: 0.8rem;
   opacity: 0;
   background-color: #ffd2d2;
-  border-color: #000000;
+  border-color: #000;
 }
 
 small {
@@ -233,12 +241,6 @@ small {
 
 .rtlow {
   margin-top: 90px;
-  transition: 0.3s ease-in;
-}
-
-.rthigh {
-  margin-top: 20px;
-  transition: 1s ease-in;
 }
 
 .project {
@@ -362,17 +364,21 @@ h3 {
     top: 0;
   }
 
-  .hhigh {
-    margin-top: 80px;
-    transition: 1s ease-in;
-  }
-
-  .rthigh {
-    margin-top: 90px;
-  }
-
   .project {
     flex-direction: column;
+  }
+
+  .abtextdiv {
+    display: none;
+  }
+
+  .abouttext {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .abtextbelow {
+    display: block;
   }
 
   .size1 {
