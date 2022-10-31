@@ -40,6 +40,26 @@ footer {
   background-color: white;
 }
 
+.grid3 {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-items: center;
+  align-items: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.badge {
+  text-align: center;
+  margin: 10px;
+}
+
+.gridtitle {
+  margin-bottom: 10px;
+}
+
 .footersquare {
   border: 1px solid black;
   border-radius: 20px;
@@ -356,6 +376,12 @@ h3 {
 }
 
 @media screen and (max-width: 640px) {
+
+  .grid3 {
+    transform: scale(0.6);
+    transform-origin: 50% 0 0;
+  }
+
   .mobilehide {
     display: none;
   }
