@@ -7,6 +7,10 @@ const portfolioBtn = document.getElementById('portfolio');
 const aboutBtn = document.getElementById('about');
 const thumbs = document.getElementsByClassName('thumb');
 
+function scrolltotop() {
+  window.scrollTo(0, 0);
+}
+
 window.addEventListener('load', () => {
   portfolioBtn.addEventListener('click', hidepages);
   aboutBtn.addEventListener('click', hidepages);
@@ -16,4 +20,5 @@ window.addEventListener('load', () => {
   });
 
   loaddata();
+  setTimeout(scrolltotop, 200);
 });
