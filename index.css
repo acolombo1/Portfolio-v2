@@ -21,6 +21,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 footer {
@@ -410,7 +411,6 @@ h3 {
   #homesection {
     transform: scale(0.6);
     transform-origin: 50% 45% 0;
-    z-index: -1;
     max-width: 400px;
     max-height: 800px;
   }
