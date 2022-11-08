@@ -63,6 +63,21 @@ footer {
   cursor: pointer;
 }
 
+.greenshadow {
+  text-shadow: 1px 1px rgb(111, 255, 111);
+}
+
+.imageandicon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 61px;
+  height: auto;
+}
+
 .size4 {
   max-width: 200px;
   max-height: 200px;
@@ -125,7 +140,7 @@ footer {
 }
 
 .myphoto {
-  width: 40vw;
+  max-width: 30vw;
   height: auto;
 }
 
