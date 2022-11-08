@@ -73,9 +73,13 @@ footer {
   align-items: center;
 }
 
-.icon {
+.icon2 {
   width: 61px;
   height: auto;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px green;
+  border-radius: 20px;
+  margin: 10px;
 }
 
 .size4 {
@@ -154,7 +158,7 @@ p {
 }
 
 .contacttext {
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .contacttext ul {
@@ -428,6 +432,12 @@ h3 {
     transform-origin: 50% 45% 0;
     max-width: 400px;
     max-height: 800px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .myphoto {
+    max-width: 60vw;
   }
 
   .mobilehide {
